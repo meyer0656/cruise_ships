@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Royal Caribbean Cruise Ships</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  
+
+<table class="table table-striped">
+  <thead class="thead-light">
+  <tr>
+    <th colspan="2"><i>Oasis of the Seas</i></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td colspan="2"><img src="https://www.royalcaribbeanpresscenter.com/media_photos/low_OA-Aerial266.JPG.jpeg" class="img-fluid" alt="Responsive image" class="rounded"></td>
+  </tr>
+  <tr>
+    <td>Year Built:</td><td>2009</td>
+  </tr>
+  <tr>
+    <td>Build Cost:</td><td>$1,300,000,000 </td>
+  </tr>
+  <tr>
+    <td>Passengers:</td><td>6,360</td>
+  </tr>
+  <tr>
+    <td>Crew:</td><td>2,394</td>
+  </tr>
+  <tr>
+    <td>Tonnage:</td><td>225,000</td>
+  </tr>
+  <tr>
+    <td>Length(m):</td><td>361</td>
+  </tr>
+  <tr>
+    <td>Speed(kts):</td><td>23</td>
+  </tr>
+</tbody>
+</table>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

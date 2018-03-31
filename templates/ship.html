@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<table class="table table-striped">
+  <thead class="thead-light">
+  <tr>
+    <th colspan="2"><i>{{ ship['Ship'] }}</i></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td colspan="2"><img src="{{ ship['Photo'] }}" class="img-fluid" alt="Responsive image" class="rounded"></td>
+  </tr>
+  <tr>
+    <td>Year Built:</td><td>{{ ship['Year'] }}</td>
+  </tr>
+  <tr>
+    <td>Build Cost:</td><td>{{ ship['Cost'] }}</td>
+  </tr>
+  <tr>
+    <td>Passengers:</td><td>{{ ship['Passengers'] }}</td>
+  </tr>
+  <tr>
+    <td>Crew:</td><td>{{ ship['Crew'] }}</td>
+  </tr>
+  <tr>
+    <td>Tonnage:</td><td>{{ ship['Tonnage'] }}</td>
+  </tr>
+  <tr>
+    <td>Length(m):</td><td>{{ ship['Length'] }}</td>
+  </tr>
+  <tr>
+    <td>Speed(kts):</td><td>{{ ship['Speed'] }}</td>
+  </tr>
+</tbody>
+</table>
+
+{% endblock %}
